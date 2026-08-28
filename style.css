@@ -1,0 +1,23 @@
+p {
+    color: blue;
+}
+
+h2 {
+
+    color: orange;
+    text-decoration: underline;
+}
+
+.projects {
+    color: orangered;
+
+}
+
+#.services {
+    color: skyblue;
+}
+
+body {
+    text-align: center;
+    list-style: none
+}
