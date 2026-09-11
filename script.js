@@ -57,3 +57,9 @@ contactHeading.textContent = "lets connect";
 projectsHeading.textContent = "My Projects";
 servicesHeading.textContent = "My Services";
 
+//.style
+heading.style.color = "purple";
+heading.style.backgroundColor = "yellow";
+contactHeading.style.color = "purple";
+projectsHeading.style.color = "purple";
+servicesHeading.style.color = "purple";
