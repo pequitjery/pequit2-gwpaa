@@ -1,40 +1,59 @@
-console.log("Hello World.");
-console.log("First Javascript");
+console.log("Hello, World!");
 
-const myName = "Jery A. pequitpequit";
-myNumber = 99902567231,
-    myAddress = "Punta Mesa Manapla";
+
+
+
+const myName = "jery a. pequitpequit";
 let age = 20;
+const number = "638271709";
+const address = "punta mesa manapla";
 
-console.log("Name: " + myName);
-console.log("Number: " + myNumber);
-console.log("Address: " + myAddress);
-console.log("Age: " + age);
 
-//Functions
+
+console.log(`Name: ${myName}`);
+console.log(`Age: ${age}`);
+console.log(`Number: ${number}`);
+console.log(`Address: ${address}`);
+
+
 function greet(name) {
-    return 'morning, ${name}';
-
+    return `Good morning, ${name}`;
 }
-console.log();
 
+console.log(greet(myName));
+
+
+function add(a, b) {
+    return a + b;
+}
 function mdas(num1, num2) {
-    let mul = num1 * num2;
-    let div = num1 / num2;
-    let add = num1 + num2;
-    let sub = num1 - num2;
-    return { mul, div, add, sub };
+    let m = num1 * num2;
+    let d = num1 / num2;
+    let a = num1 + num2;
+    let s = num1 - num2;
+    return (`values: ${num1} and ${num2},\n product: ${m}, \n quotient: ${d}, \n sum: ${a}, \n difference: ${s}`);
+
 }
 console.log(mdas(5, 3));
 
-const heading = document.querySelector("h1")
 
-const contact = document.querySelector(".contact");
-const services = document.querySelector(".services");
 
+
+// Query Selector
+const heading = document.querySelector("h1");
 console.log(heading);
-console.log(contact);
-console.log(services);
 
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading);
 
+const projectsHeading = document.querySelector("#projects h2");
+console.log(projectsHeading);
+const servicesHeading = document.querySelector("#services h2");
+console.log(servicesHeading);
+
+//text Content
+heading.textContent = "My Portfolio";
+contactHeading.textContent = "lets connect";
+projectsHeading.textContent = "My Projects";
+servicesHeading.textContent = "My Services";
 
