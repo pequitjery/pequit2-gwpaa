@@ -1,16 +1,30 @@
-console.log("hello World");
-console.log("Hello, world.");
-console.log("First JavaScript");
-
-
-const myName = "Jery A. pequitpequit";
-let myNumber = 99704657576;
-let myAdress = "Punta Mesa Manapla";
-
+console.log("Hello mundo")
+const Myname = "jery pequit";
+console.log("name: " + Myname);
 let age = 20;
+let number = "09704657657";
+console.log("Age: " + age)
+console.log("Number: " + number);
 
-console.log("Name: " + myName);
-console.log("Age: " + age);
-console.log("Number: " + myNumber);
-console.log("Address: " + myAdress);
+const address = "manapla, punta mesa";
+console.log("Address: " + address);
 
+function greet(name) {
+
+    return `good morning, ${name}`;
+
+
+}
+console.log(greet("rene"))
+
+function mdas(a, b) {
+    let mul = a * b;
+    let div = a / b;
+    let sum = a + b;
+    let sub = a - b;
+    return (`values: ${a} and ${b}. \n product: ${mul}, \n qoutient: ${div}, \n sum: ${sum},\n difference: ${sub}`);
+}
+console.log(mdas(5, 3));
+
+const heading = document.querySelector("h1");
+console.log(heading);
