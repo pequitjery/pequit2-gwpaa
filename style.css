@@ -36,6 +36,10 @@ main section {
     padding: 20px;
 }
 
+section[id="projects"] {
+    background-color: aqua;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -103,6 +107,6 @@ button {
 }
 
 button:hover {
-    background-color:red;
+    background-color: red;
     color: black;
 }
